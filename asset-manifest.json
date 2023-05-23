@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/Margarita1007/realting/static/css/main.711b7961.css",
-    "main.js": "/Margarita1007/realting/static/js/main.706b9953.js",
-    "static/js/787.28cb0dcd.chunk.js": "/Margarita1007/realting/static/js/787.28cb0dcd.chunk.js",
-    "static/media/img6.jpeg": "/Margarita1007/realting/static/media/img6.2114fa0375ff75140028.jpeg",
-    "static/media/img2.jpg": "/Margarita1007/realting/static/media/img2.f61b4abf10c377476785.jpg",
-    "static/media/img1.jpg": "/Margarita1007/realting/static/media/img1.40b37545c5cc67bea5b4.jpg",
-    "static/media/img4.jpg": "/Margarita1007/realting/static/media/img4.501339d6fab1a8e9688a.jpg",
-    "static/media/img5.jpg": "/Margarita1007/realting/static/media/img5.5b9b866b4c97adcdeca6.jpg",
-    "static/media/img3.jpg": "/Margarita1007/realting/static/media/img3.bb9fa1fea86b37e8cd8c.jpg",
-    "static/media/img7.jpeg": "/Margarita1007/realting/static/media/img7.4495ca220eaee7be47da.jpeg",
-    "index.html": "/Margarita1007/realting/index.html",
-    "static/media/location.svg": "/Margarita1007/realting/static/media/location.7d8c6c56a899a591af7cc4cab77aa33f.svg",
-    "static/media/unit-baths.svg": "/Margarita1007/realting/static/media/unit-baths.efeff489c1e66d8ebe265ba0054a5d47.svg",
-    "static/media/unit-square.svg": "/Margarita1007/realting/static/media/unit-square.e48262754a4c1c1cc0d985e3a51d6cca.svg",
-    "static/media/unit-storeys.svg": "/Margarita1007/realting/static/media/unit-storeys.badd52270271086ff45dfdb00c0e2b69.svg",
-    "static/media/unit-rooms.svg": "/Margarita1007/realting/static/media/unit-rooms.c0fd0641fcb422cf90fede1d2f9864d4.svg",
-    "static/media/arrow.svg": "/Margarita1007/realting/static/media/arrow.01570b85af91a2c64aca.svg",
-    "main.711b7961.css.map": "/Margarita1007/realting/static/css/main.711b7961.css.map",
-    "main.706b9953.js.map": "/Margarita1007/realting/static/js/main.706b9953.js.map",
-    "787.28cb0dcd.chunk.js.map": "/Margarita1007/realting/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/realting/static/css/main.bf376006.css",
+    "main.js": "/realting/static/js/main.d2f6c205.js",
+    "static/js/787.28cb0dcd.chunk.js": "/realting/static/js/787.28cb0dcd.chunk.js",
+    "static/media/img6.jpeg": "/realting/static/media/img6.2114fa0375ff75140028.jpeg",
+    "static/media/img2.jpg": "/realting/static/media/img2.f61b4abf10c377476785.jpg",
+    "static/media/img1.jpg": "/realting/static/media/img1.40b37545c5cc67bea5b4.jpg",
+    "static/media/img4.jpg": "/realting/static/media/img4.501339d6fab1a8e9688a.jpg",
+    "static/media/img5.jpg": "/realting/static/media/img5.5b9b866b4c97adcdeca6.jpg",
+    "static/media/img3.jpg": "/realting/static/media/img3.bb9fa1fea86b37e8cd8c.jpg",
+    "static/media/img7.jpeg": "/realting/static/media/img7.4495ca220eaee7be47da.jpeg",
+    "index.html": "/realting/index.html",
+    "static/media/location.svg": "/realting/static/media/location.7d8c6c56a899a591af7cc4cab77aa33f.svg",
+    "static/media/unit-baths.svg": "/realting/static/media/unit-baths.efeff489c1e66d8ebe265ba0054a5d47.svg",
+    "static/media/unit-square.svg": "/realting/static/media/unit-square.e48262754a4c1c1cc0d985e3a51d6cca.svg",
+    "static/media/unit-storeys.svg": "/realting/static/media/unit-storeys.badd52270271086ff45dfdb00c0e2b69.svg",
+    "static/media/unit-rooms.svg": "/realting/static/media/unit-rooms.c0fd0641fcb422cf90fede1d2f9864d4.svg",
+    "static/media/arrow.svg": "/realting/static/media/arrow.01570b85af91a2c64aca.svg",
+    "main.bf376006.css.map": "/realting/static/css/main.bf376006.css.map",
+    "main.d2f6c205.js.map": "/realting/static/js/main.d2f6c205.js.map",
+    "787.28cb0dcd.chunk.js.map": "/realting/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.711b7961.css",
-    "static/js/main.706b9953.js"
+    "static/css/main.bf376006.css",
+    "static/js/main.d2f6c205.js"
   ]
 }
