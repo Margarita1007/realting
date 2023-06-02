@@ -4,13 +4,14 @@ import { CardType } from "../../../types";
 import loc from '../../../assets/icons/location.svg';
 import './card.css';
 import rooms from '../../../assets/icons/unit-rooms.svg';
-import bath from '../../../assets/icons/unit-baths.svg';
 import square from '../../../assets/icons/unit-square.svg';
 import storeys from '../../../assets/icons/unit-storeys.svg';
 import { Link } from "react-router-dom";
 
-const CardTemplate: React.FC<CardType> = (props) => {
+
+const ShortCardTemplate: React.FC<CardType> = (props) => {
     const path: string = '/offers/' + props.id;
+
     return (
         <Link to={path} target="_blank">
             <Card
@@ -36,10 +37,6 @@ const CardTemplate: React.FC<CardType> = (props) => {
                             <span>2</span>
                         </div>
                         <div className="unit-item">
-                            <img src={bath} alt="baths"/>
-                            <span>1</span>
-                        </div>
-                        <div className="unit-item">
                             <img src={square} alt="square"/>
                             <span>58 м²</span>
                         </div>
@@ -54,12 +51,11 @@ const CardTemplate: React.FC<CardType> = (props) => {
                     $ 230,000
                 </Row>
                 <Divider />
-                <Row className="text">
-                    {props.text}
-                </Row>
+                
+                
             </Card>
         </Link>
     )
 }
 
-export default CardTemplate;
+export default ShortCardTemplate;

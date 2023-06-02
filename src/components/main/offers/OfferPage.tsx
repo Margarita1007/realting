@@ -1,9 +1,9 @@
 import { Col, Row  } from "antd";
 import React from "react";
 import './offers.css';
-import Object from "./Object";
-import MapOffer from "./MapOffer";
-import FeedbackForm from "./FeedbackForm";
+import Object from "./object/Object";
+import MapOffer from "./object/MapOffer";
+import FeedbackForm from "./feedback-form/FeedbackForm";
 
 
 const OfferPage: React.FC = () => {
@@ -17,15 +17,16 @@ const OfferPage: React.FC = () => {
                     $ 230,000
                 </Col>
             </Row>
-            <Row gutter={30}>
-                <Col span={16}>
+            <Row gutter={[30, 30]}>
+                <Col xs={24} xl={16}>
                     <Object/>
                     <div className="map-offer-container">
                         <h3>Местоположение</h3>
+                        <h5>Текст</h5>
                         <MapOffer/>
                     </div>
                 </Col>
-                <Col span={8}>
+                <Col xs={24} xl={8}>
                     <FeedbackForm/>
                 </Col>
             </Row>

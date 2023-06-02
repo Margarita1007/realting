@@ -1,7 +1,9 @@
-import { Form, Input, Layout, Radio, Select, Space } from 'antd';
+import { Button, Checkbox, Form, Input, Layout, Select, Space } from 'antd';
 import React from 'react';
 import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
+import SelectText from './SelectText';
+import TextArea from 'antd/es/input/TextArea';
 
 const FeedbackForm: React.FC = () => {
     return (
@@ -57,16 +59,23 @@ const FeedbackForm: React.FC = () => {
                             <Select.Option value="en">English</Select.Option>
                         </Select>
                     </Form.Item>
-                    <Form.Item
+                    <SelectText/>
+                    {/* <Form.Item
                         name="message"
                         label="Введите сообщение"
-                        rules={[{ required: true }]}
+                        rules={[{ required: true, message: 'Введите сообщение' }]}
                         >
-                        <Radio.Group value={0}>
-                            <Radio value={1}>Выбрать из предложенного</Radio>
-                            <Radio value={2}>Написать свой текст</Radio>
-                        </Radio.Group>
+                        <TextArea rows={4} placeholder='Здравствуйте, мне интересно ваше объявление'/>
+                    </Form.Item> */}
+                    <Form.Item >
+                        <Checkbox>
+                            Я ознакомлен и согласен с правилами обработки персональных данных.
+                        </Checkbox>
                     </Form.Item>
+                    <Form.Item>
+                        <Button type='primary' disabled>Связаться с продавцом</Button>
+                    </Form.Item>
+                    {/* <SelectText/> */}
                 </Form>
             </Space>
         </Layout>

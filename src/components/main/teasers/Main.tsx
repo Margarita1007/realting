@@ -7,7 +7,7 @@ const Main: React.FC = () => {
     return (
         <Layout className='catalog'>
             <ContentContainer/>
-            <div className='catalog-right'>
+            <div className='catalog-right catalog-right-visibility' id='catalog-right'>
                 <MapCatalog/>
             </div>
         </Layout>
