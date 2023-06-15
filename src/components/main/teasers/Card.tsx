@@ -20,7 +20,7 @@ const CardTemplate: React.FC<CardType> = (props) => {
             >
                 <Space direction="vertical" className="desc">
                     <Row className="title">  
-                        Квартира 2 комнаты 
+                        {props.title}
                     </Row>
                     <Row className="geo">
                         <Col className="geo-icon">

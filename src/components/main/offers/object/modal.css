@@ -4,7 +4,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, .8);
+    background: rgba(0, 0, 0, .9);
     overflow: hidden;
     /* width: 100vw;
     height: 100vh; */
@@ -106,6 +106,10 @@
   color: #0ca;
 }
 
+.slick-track {
+    display: flex !important;
+    align-items: center;
+}
 /* 
 .ant-carousel .slick-next {
     color: white;
@@ -138,4 +142,26 @@
     .ant-carousel .slick-prev {
         inset-inline-start: -35px !important;
     }
+}
+
+@media screen and (max-width: 650px) {
+      
+    .ant-carousel .slick-prev,
+    .ant-carousel .slick-next {
+        display: none !important;
+    }
+
+    .ant-carousel {
+        width: 100%;
+        margin: 0;
+    }
+
+    
+.modal-close {
+    top: 10px;
+    right: 10px;
+    width: 25px;
+    height: 25px;
+}
+
 }

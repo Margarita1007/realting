@@ -175,6 +175,39 @@
     .secondary-image > div {
         width: 120px;
     }
+
+    .offer-page-container {
+        padding: 15px 16px;
+    }
+
+    .object {
+        padding: 8px;
+    }
+
+    .offer-page-title {
+        margin-bottom: 10px;
+    }
+    .offer-page-title h1 {
+        font-size: 20px;
+        margin: 0;
+        margin-bottom: 8px;
+    }
+
+    .offer-page-title .price {
+        font-size: 20px;
+    }
+
+    .object-params .param {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .object-params .param h3 {
+        font-size: 16px;
+    }
+    .object-params .param div {
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 450px) {

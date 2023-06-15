@@ -13,6 +13,10 @@
     box-shadow: 0 0 10px rgb(0 48 115 / 25%);
 }
 
+.header-logo {
+    cursor: pointer;
+}
+
 .nav-link {
     font-size: 18px;
     line-height: 30px;
@@ -35,3 +39,11 @@
         display: none;
     }
 }
+
+
+/* @media screen and (max-width: 639px) {
+    .header {
+        padding: 0 8px;
+    }
+
+} */

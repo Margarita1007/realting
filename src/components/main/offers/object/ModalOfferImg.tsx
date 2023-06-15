@@ -7,6 +7,10 @@ import { useParams } from "react-router-dom";
 import img1 from '../../../../assets/img/img1.jpg';
 import img2 from '../../../../assets/img/img2.jpg';
 import img3 from '../../../../assets/img/img3.jpg';
+import imgvert1 from '../../../../assets/img/img-vert-1.jpg';
+import imgvert2 from '../../../../assets/img/img-vert-2.jpg';
+import imgvert3 from '../../../../assets/img/img-vert-3.jpg';
+
 import { cards } from "../../teasers/data";
 
 interface ChildProps {
@@ -71,14 +75,24 @@ const ModalOfferImg: React.FC<ChildProps> = ( {setShowModal}) => {
                             <img src={obj.img} alt="img1"/>
                         </div>
                         <div className="modal-img">
-                            <img src={img1} alt="img1"/> 
+                            <img src={imgvert1} alt="img1"/> 
                         </div>
                         <div className="modal-img">
-                            <img src={img2} alt="img1"/>
+                            <img src={img1} alt="img1"/>
+                        </div>
+                        <div className="modal-img">
+                            <img src={imgvert2} alt="img1" />
+                        </div>
+                        <div className="modal-img">
+                            <img src={img2} alt="img1"/> 
+                        </div>
+                        <div className="modal-img">
+                            <img src={imgvert3} alt="img1"/>
                         </div>
                         <div className="modal-img">
                             <img src={img3} alt="img1" />
                         </div>
+                        
                     </Carousel>
                 </div>
                 

@@ -1,9 +1,10 @@
 import React from "react";
+import SearchComponent from "./Search";
 
 const Filters: React.FC = () => {
     return (
         <div className="catalog-filters">
-            Здесь будут фильтры
+            <SearchComponent/>
         </div>
     )
 }

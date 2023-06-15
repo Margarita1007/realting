@@ -8,6 +8,7 @@ import ShortCardTemplate from "./ShortCard";
 import "leaflet/dist/leaflet.css";
 
 const MapCatalog: React.FC = () => {
+    const zoom:number = 10;
 
     const customIcon = new L.Icon({
         iconUrl: require('../../../assets/icons/locationFill.svg').default,
@@ -39,13 +40,12 @@ const MapCatalog: React.FC = () => {
     const markers = cards.map((card) => {
         return card
     })
-    const zoom:number = 10;
 
     return (
         <MapContainer center={center} zoom={zoom} scrollWheelZoom={true}>
             <TileLayer
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
             />
             <MarkerClusterGroup
                 onClick={(e) => console.log('onClick', e.target)}
