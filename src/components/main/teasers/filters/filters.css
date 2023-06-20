@@ -1,0 +1,39 @@
+.search-wrapper {
+    width: 100%;
+}
+
+.search-wrapper_text {
+    margin: 10px 0;
+    font-size: 20px;
+    color: #003073;
+}
+
+
+.catalog-filters_filters-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.filters-button {
+    color: #07c;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.filters-button svg {
+    fill: #07c;
+}
+
+.filters-button svg:hover {
+    fill: #0ca;
+}
+
+.filters-button:hover {
+    color: #0ca;
+    fill: #0ca;
+}

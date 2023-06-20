@@ -1,17 +1,16 @@
 import React from "react";
 import { Card, Row, Col, Space, Divider } from 'antd';
-import { CardType } from "../../../types";
-import loc from '../../../assets/icons/location.svg';
+import { CardType } from "../../../../types";
+import loc from '../../../../assets/icons/location.svg';
 import './card.css';
-import rooms from '../../../assets/icons/unit-rooms.svg';
-import square from '../../../assets/icons/unit-square.svg';
-import storeys from '../../../assets/icons/unit-storeys.svg';
+import rooms from '../../../../assets/icons/unit-rooms.svg';
+import bath from '../../../../assets/icons/unit-baths.svg';
+import square from '../../../../assets/icons/unit-square.svg';
+import storeys from '../../../../assets/icons/unit-storeys.svg';
 import { Link } from "react-router-dom";
 
-
-const ShortCardTemplate: React.FC<CardType> = (props) => {
+const CardTemplate: React.FC<CardType> = (props) => {
     const path: string = '/offers/' + props.id;
-
     return (
         <Link to={path} target="_blank">
             <Card
@@ -21,7 +20,7 @@ const ShortCardTemplate: React.FC<CardType> = (props) => {
             >
                 <Space direction="vertical" className="desc">
                     <Row className="title">  
-                        Квартира 2 комнаты 
+                        {props.title}
                     </Row>
                     <Row className="geo">
                         <Col className="geo-icon">
@@ -37,6 +36,10 @@ const ShortCardTemplate: React.FC<CardType> = (props) => {
                             <span>2</span>
                         </div>
                         <div className="unit-item">
+                            <img src={bath} alt="baths"/>
+                            <span>1</span>
+                        </div>
+                        <div className="unit-item">
                             <img src={square} alt="square"/>
                             <span>58 м²</span>
                         </div>
@@ -48,14 +51,15 @@ const ShortCardTemplate: React.FC<CardType> = (props) => {
                 </Space>
                 <Divider />
                 <Row className="price">
-                    $ 230,000
+                    $ {props.price}
                 </Row>
                 <Divider />
-                
-                
+                <Row className="text">
+                    {props.text}
+                </Row>
             </Card>
         </Link>
     )
 }
 
-export default ShortCardTemplate;
+export default CardTemplate;

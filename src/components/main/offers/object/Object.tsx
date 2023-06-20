@@ -1,7 +1,7 @@
 import { Layout, Space, Row, Col } from "antd";
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
-import { cards } from "../../teasers/data";
+import { cards } from "../../teasers/cards/data";
 import ModalOfferImg from "./ModalOfferImg";
 
 const img1 = require("../../../../assets/img/img1.jpg");

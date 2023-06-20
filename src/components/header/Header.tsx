@@ -1,6 +1,8 @@
 import React from "react";
 import './header.css';
 import { Link } from "react-router-dom";
+import { SettingLangCurrency } from "./Setting";
+import Profile from "./Profile";
 
 const HeaderComponent: React.FC = () => {
     return (
@@ -20,9 +22,14 @@ const HeaderComponent: React.FC = () => {
                 <a href="/" className="nav-link">Новости</a>
             </nav>
             <nav className="user-menu">
+                <SettingLangCurrency/>
                 <a href="/" className="nav-link nav-link-login">Войти</a>
                 <a href="/" className="nav-link nav-link-siqnup">Регистрация</a>
             </nav>
+            <div className="user-menu-mobile">
+                <SettingLangCurrency/>
+                <Profile/>
+            </div>
         </header>
     )
 }

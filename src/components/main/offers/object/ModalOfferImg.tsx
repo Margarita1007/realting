@@ -11,7 +11,7 @@ import imgvert1 from '../../../../assets/img/img-vert-1.jpg';
 import imgvert2 from '../../../../assets/img/img-vert-2.jpg';
 import imgvert3 from '../../../../assets/img/img-vert-3.jpg';
 
-import { cards } from "../../teasers/data";
+import { cards } from "../../teasers/cards/data";
 
 interface ChildProps {
     setShowModal: React.Dispatch<React.SetStateAction<boolean>>;

@@ -1,7 +1,7 @@
 import React from 'react';
 import { MapContainer, Marker, TileLayer } from 'react-leaflet';
 import { useParams } from 'react-router-dom';
-import { cards } from '../../teasers/data';
+import { cards } from '../../teasers/cards/data';
 import L from "leaflet";
 
 const customIcon = new L.Icon({
@@ -17,7 +17,7 @@ const MapOffer: React.FC = () => {
             <MapContainer center={offer.geo} zoom={13}>
                 <TileLayer
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
                 />
                     <Marker position={offer.geo} icon={customIcon}>
                     </Marker>

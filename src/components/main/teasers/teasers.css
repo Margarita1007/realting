@@ -38,7 +38,8 @@
 }
 
 .catalog-filters {
-    height: 90px;
+    height: auto;
+    margin-bottom: 20px;
 }
 
 .switch-map-list {
@@ -89,12 +90,6 @@
     padding: 0 !important;
 }
 
-.search-wrapper_text {
-    margin-top: 10px;
-    font-size: 20px;
-    color: #003073;
-}
-
 .card-list_found {
     margin-bottom: 10px;
     color: #778190;
@@ -141,5 +136,12 @@
     .switch-map-list {
         display: block;
     }
+    
+    .search-wrapper_text {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    
 }
 

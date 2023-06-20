@@ -1,7 +1,7 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { RootState } from "./store";
 import { CardType } from "../types";
-import { cards } from "../components/main/teasers/data";
+import { cards } from "../components/main/teasers/cards/data";
 
 interface offerState {
     offers: CardType[],

@@ -1,10 +1,12 @@
 import { configureStore } from '@reduxjs/toolkit';
 import offersReducer from './OfferSlice';
+import settingReducer from './SettingSlice';
 
 
 export const store = configureStore({
     reducer: {
-        offers: offersReducer
+        offers: offersReducer,
+        setting: settingReducer
     },
     // middleware: (getDefaultMiddleware) =>
     // getDefaultMiddleware({

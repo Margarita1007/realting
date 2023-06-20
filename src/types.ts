@@ -3,5 +3,6 @@ export type CardType = {
     title: string,
     geo: [number, number],
     img: string,
-    text: string
+    text: string,
+    price: string
 }

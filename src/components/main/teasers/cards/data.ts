@@ -1,18 +1,18 @@
-import { CardType } from "../../../types";
-const img1 = require("../../../assets/img/img1.jpg");
-const img2 = require("../../../assets/img/img2.jpg");
-const img3 = require("../../../assets/img/img3.jpg");
-const img4 = require("../../../assets/img/img4.jpg");
-const img5 = require("../../../assets/img/img5.jpg");
-const img6 = require("../../../assets/img/img6.jpeg");
-const img7 = require("../../../assets/img/img7.jpeg");
-const img8 = require("../../../assets/img/img8.jpg");
-const img9 = require("../../../assets/img/img9.jpg");
-const img10 = require("../../../assets/img/img15.jpg");
-const img11 = require("../../../assets/img/img11.jpg");
-const img12 = require("../../../assets/img/img12.jpg");
-const img13 = require("../../../assets/img/img13.jpeg");
-const img14 = require("../../../assets/img/img14.jpg");
+import { CardType } from "../../../../types";
+const img1 = require("../../../../assets/img/img1.jpg");
+const img2 = require("../../../../assets/img/img2.jpg");
+const img3 = require("../../../../assets/img/img3.jpg");
+const img4 = require("../../../../assets/img/img4.jpg");
+const img5 = require("../../../../assets/img/img5.jpg");
+const img6 = require("../../../../assets/img/img6.jpeg");
+const img7 = require("../../../../assets/img/img7.jpeg");
+const img8 = require("../../../../assets/img/img8.jpg");
+const img9 = require("../../../../assets/img/img9.jpg");
+const img10 = require("../../../../assets/img/img15.jpg");
+const img11 = require("../../../../assets/img/img11.jpg");
+const img12 = require("../../../../assets/img/img12.jpg");
+const img13 = require("../../../../assets/img/img13.jpeg");
+const img14 = require("../../../../assets/img/img14.jpg");
 
 
 export const card1: CardType = {
@@ -20,6 +20,7 @@ export const card1: CardType = {
     title: 'Квартира 2 комнаты',
     geo: [53.396620, 50.187302],
     img: img1,
+    price: '230000',
     text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
     Sunt fugit illo atque nemo dolore voluptates culpa 
     veniam dolor vero ad sed possimus non dicta ullam ipsam quod, optio tempore impedit?`
@@ -30,6 +31,7 @@ export const card2: CardType = {
     title: 'Квартира 2 комнаты',
     geo: [53.094733, 50.168312],
     img: img2,
+    price: '30000',
     text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
     Sunt fugit illo atque nemo dolore voluptates culpa veniam 
     dolor vero ad sed possimus non dicta ullam ipsam quod, optio tempore impedit?`
@@ -40,6 +42,7 @@ export const card3: CardType = {
     title: 'Квартира 1 комната',
     geo: [53.093143, 50.161818],
     img: img3,
+    price: '500000',
     text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
     optio tempore impedit?`
 }
@@ -49,6 +52,7 @@ export const card4: CardType = {
     title: 'Дуплекс',
     geo: [53.186769, 50.200841],
     img: img4,
+    price: '80000',
     text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
     Sunt fugit illo atque nemo dolore voluptates culpa veniam 
     dolor vero ad sed possimus non dicta ullam ipsam quod, optio tempore impedit?`
@@ -59,6 +63,7 @@ export const card5: CardType = {
     title: 'Дом 2 комнаты',
     geo: [53.194684, 50.209333],
     img: img5,
+    price: '170000',
     text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
     Sunt fugites culpa veniam 
     dolor vero ad sed possimus non dicta ullam ipsam quod, optio tempore impedit?`
@@ -69,6 +74,7 @@ export const card6: CardType = {
     title: 'Квартира 2 комнаты',
     geo: [53.191200, 50.192111],
     img: img6,
+    price: '200000',
     text: `Lorem ipsum dolor sit amet consectetur adipisicing elit.`
 }
 
@@ -77,6 +83,7 @@ export const card7: CardType = {
     title: 'Дуплекс',
     geo: [53.212348, 50.236103],
     img: img7,
+    price: '260000',
     text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
     Sunt fugit illo atque nemo dolore voluptates culpa veniam 
     dolor vero ad sed possimus non dicta ullam ipsam quod, optio tempore impedit?`
@@ -88,6 +95,7 @@ export const card8: CardType = {
     title: 'Квартира 2 комнаты',
     geo: [53.296310, 50.184362],
     img: img8,
+    price: '110000',
     text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
     Sunt fugit illo atque nemo dolore voluptates culpa 
     veniam dolor vero ad sed possimus non dicta ullam ipsam quod, optio tempore impedit?`
@@ -98,6 +106,7 @@ export const card9: CardType = {
     title: 'Дуплекс',
     geo: [53.094463, 50.168542],
     img: img9,
+    price: '60000',
     text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
     Sunt fugit illo atque nemo dolore voluptates culpa veniam 
     dolor vero ad sed possimus non dicta ullam ipsam quod, optio tempore impedit?`
@@ -108,6 +117,7 @@ export const card10: CardType = {
     title: 'Квартира 2 комнаты',
     geo: [53.093323, 50.162828],
     img: img10,
+    price: '333000',
     text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
     optio tempore impedit?`
 }
@@ -117,6 +127,7 @@ export const card11: CardType = {
     title: 'Таунхаус',
     geo: [53.186781, 50.222841],
     img: img11,
+    price: '444000',
     text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
     Sunt fugit illo atque nemo dolore voluptates culpa veniam 
     dolor vero ad sed possimus non dicta ullam ipsam quod, optio tempore impedit?`
@@ -127,6 +138,7 @@ export const card12: CardType = {
     title: 'Квартира 3 комнаты',
     geo: [53.195664, 50.209533],
     img: img12,
+    price: '530000',
     text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
     Sunt fugites culpa veniam 
     dolor vero ad sed possimus non dicta ullam ipsam quod, optio tempore impedit?`
@@ -137,6 +149,7 @@ export const card13: CardType = {
     title: 'Квартира 2 комнаты',
     geo: [53.191211, 50.192151],
     img: img13,
+    price: '150000',
     text: `Lorem ipsum dolor sit amet consectetur adipisicing elit.`
 }
 
@@ -145,6 +158,7 @@ export const card14: CardType = {
     title: 'Дом 2 этажа',
     geo: [53.212668, 50.236263],
     img: img14,
+    price: '290000',
     text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
     Sunt fugit illo atque nemo dolore voluptates culpa veniam 
     dolor vero ad sed possimus non dicta ullam ipsam quod, optio tempore impedit?`

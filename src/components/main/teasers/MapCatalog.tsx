@@ -3,8 +3,8 @@ import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
 import MarkerClusterGroup from 'react-leaflet-cluster';
 import L from "leaflet";
 //import { LatLngTuple } from 'leaflet';
-import { cards, coordinates } from "./data";
-import ShortCardTemplate from "./ShortCard";
+import { cards, coordinates } from "./cards/data";
+import ShortCardTemplate from "./cards/ShortCard";
 import "leaflet/dist/leaflet.css";
 
 const MapCatalog: React.FC = () => {
@@ -57,8 +57,6 @@ const MapCatalog: React.FC = () => {
                             <div onClick={() => console.log('onClick', marker.geo)}>
                                 <ShortCardTemplate {...marker} />
                             </div>
-                            
-                            
                         </Popup>
                     </Marker>
                 ))}
